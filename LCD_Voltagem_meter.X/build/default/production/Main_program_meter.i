@@ -4990,7 +4990,7 @@ void main()
         }
         else
         {
-           lcd_clear();
+
            lcd_LEDS();
 
 

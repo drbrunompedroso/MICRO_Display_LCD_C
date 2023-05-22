@@ -136,9 +136,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 "316
 [; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 316: extern volatile PORTBbits_t PORTBbits __attribute__((address(0xF81)));
 [v _PORTBbits `VS16 ~T0 @X0 0 e@3969 ]
-"22 ./LCD4b.h
-[; ;./LCD4b.h: 22: void lcd_clear(void);
-[v _lcd_clear `(v ~T0 @X0 0 ef ]
 "6 Main_program_meter.c
 [p x OSC  =  HS          ]
 "7
@@ -1021,9 +1018,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 "223
 [; ;Main_program_meter.c: 223:         {
 {
-"224
-[; ;Main_program_meter.c: 224:            lcd_clear();
-[e ( _lcd_clear ..  ]
 "225
 [; ;Main_program_meter.c: 225:            lcd_LEDS();
 [e ( _lcd_LEDS ..  ]

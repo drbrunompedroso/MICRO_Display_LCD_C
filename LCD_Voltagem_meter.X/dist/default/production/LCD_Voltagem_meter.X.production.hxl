@@ -11,13 +11,13 @@
  Intel Hex-file ranges:
   0h - 3h		(dist/default/production\LCD_Voltagem_meter.X.production.hex)
   600h - 676h		(dist/default/production\LCD_Voltagem_meter.X.production.hex)
-  678h - 4369h		(dist/default/production\LCD_Voltagem_meter.X.production.hex)
+  678h - 433Fh		(dist/default/production\LCD_Voltagem_meter.X.production.hex)
   200000h - 200007h		(dist/default/production\LCD_Voltagem_meter.X.production.hex)
   300000h - 30000Dh		(dist/default/production\LCD_Voltagem_meter.X.production.hex)
  Unused ranges:
   4h - 5FFh
   677h - 677h
-  436Ah - 1FFFFFh
+  4340h - 1FFFFFh
   200008h - 2FFFFFh
 
 ### Hex Memory Map ###
@@ -1009,9 +1009,6 @@
 00004310 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00004320 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00004330 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-00004340 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-00004350 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-00004360 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- --
 ----------------------------------------------------------
 00200000 | H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- -- -- --
 ----------------------------------------------------------

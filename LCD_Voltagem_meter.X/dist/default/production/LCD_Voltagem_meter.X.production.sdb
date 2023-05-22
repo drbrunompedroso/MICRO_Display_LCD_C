@@ -85,7 +85,7 @@
 [v ___omul __omul `(uo  1 e 8 0 ]
 "10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
 [v ___xxtofl __xxtofl `(d  1 e 4 0 ]
-"3 C:\Users\Bruno Medina Pedroso\Documents\Projetos\Microcontroladores\MICRO\3 - LCD\LCD_Voltagem_meter.X\LCD4b_EXSTO.c
+"3 C:\Users\Bruno Medina Pedroso\Documents\Projetos\Microcontroladores\MICRO\3 - LCD\MICRO_Display_LCD_C\LCD_Voltagem_meter.X\LCD4b_EXSTO.c
 [v _lcd_init lcd_init `(v  1 e 1 0 ]
 "36
 [v _set_bit set_bit `(uc  1 e 1 0 ]
@@ -93,11 +93,9 @@
 [v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
 "63
 [v _lcd_send_byte lcd_send_byte `(v  1 e 1 0 ]
-"71
-[v _lcd_clear lcd_clear `(v  1 e 1 0 ]
 "77
 [v _lcd_write lcd_write `(v  1 e 1 0 ]
-"86 C:\Users\Bruno Medina Pedroso\Documents\Projetos\Microcontroladores\MICRO\3 - LCD\LCD_Voltagem_meter.X\Main_program_meter.c
+"86 C:\Users\Bruno Medina Pedroso\Documents\Projetos\Microcontroladores\MICRO\3 - LCD\MICRO_Display_LCD_C\LCD_Voltagem_meter.X\Main_program_meter.c
 [v _config_FOSC config_FOSC `(v  1 e 1 0 ]
 "92
 [v _config_IO config_IO `(v  1 e 1 0 ]
@@ -190,7 +188,7 @@
 [v _PORTCbits PORTCbits `VES156  1 e 1 @3970 ]
 "633
 [v _PORTD PORTD `VEuc  1 e 1 @3971 ]
-[s S477 . 1 `uc 1 RD0 1 0 :1:0 
+[s S473 . 1 `uc 1 RD0 1 0 :1:0 
 `uc 1 RD1 1 0 :1:1 
 `uc 1 RD2 1 0 :1:2 
 `uc 1 RD3 1 0 :1:3 
@@ -200,7 +198,7 @@
 `uc 1 RD7 1 0 :1:7 
 ]
 "670
-[s S486 . 1 `uc 1 PSP0 1 0 :1:0 
+[s S482 . 1 `uc 1 PSP0 1 0 :1:0 
 `uc 1 PSP1 1 0 :1:1 
 `uc 1 PSP2 1 0 :1:2 
 `uc 1 PSP3 1 0 :1:3 
@@ -209,67 +207,67 @@
 `uc 1 PSP6 1 0 :1:6 
 `uc 1 PSP7 1 0 :1:7 
 ]
-[s S495 . 1 `uc 1 . 1 0 :5:0 
+[s S491 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 P1B 1 0 :1:5 
 `uc 1 P1C 1 0 :1:6 
 `uc 1 P1D 1 0 :1:7 
 ]
-[s S500 . 1 `uc 1 . 1 0 :7:0 
+[s S496 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 SS2 1 0 :1:7 
 ]
-[u S503 . 1 `S477 1 . 1 0 `S486 1 . 1 0 `S495 1 . 1 0 `S500 1 . 1 0 ]
-[v _PORTDbits PORTDbits `VES503  1 e 1 @3971 ]
-[s S352 . 1 `uc 1 RE0 1 0 :1:0 
+[u S499 . 1 `S473 1 . 1 0 `S482 1 . 1 0 `S491 1 . 1 0 `S496 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES499  1 e 1 @3971 ]
+[s S348 . 1 `uc 1 RE0 1 0 :1:0 
 `uc 1 RE1 1 0 :1:1 
 `uc 1 RE2 1 0 :1:2 
 `uc 1 RE3 1 0 :1:3 
 ]
 "833
-[s S381 . 1 `uc 1 RD 1 0 :1:0 
+[s S377 . 1 `uc 1 RD 1 0 :1:0 
 `uc 1 WR 1 0 :1:1 
 `uc 1 CS 1 0 :1:2 
 `uc 1 MCLR 1 0 :1:3 
 ]
-[s S386 . 1 `uc 1 NOT_RD 1 0 :1:0 
+[s S382 . 1 `uc 1 NOT_RD 1 0 :1:0 
 ]
-[s S388 . 1 `uc 1 . 1 0 :1:0 
+[s S384 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 NOT_WR 1 0 :1:1 
 ]
-[s S391 . 1 `uc 1 . 1 0 :2:0 
+[s S387 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 NOT_CS 1 0 :1:2 
 ]
-[s S394 . 1 `uc 1 . 1 0 :3:0 
+[s S390 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 NOT_MCLR 1 0 :1:3 
 ]
-[s S397 . 1 `uc 1 nRD 1 0 :1:0 
+[s S393 . 1 `uc 1 nRD 1 0 :1:0 
 `uc 1 nWR 1 0 :1:1 
 `uc 1 nCS 1 0 :1:2 
 `uc 1 nMCLR 1 0 :1:3 
 ]
-[s S402 . 1 `uc 1 AN5 1 0 :1:0 
+[s S398 . 1 `uc 1 AN5 1 0 :1:0 
 `uc 1 AN6 1 0 :1:1 
 `uc 1 AN7 1 0 :1:2 
 `uc 1 VPP 1 0 :1:3 
 ]
-[s S407 . 1 `uc 1 PD2 1 0 :1:0 
+[s S403 . 1 `uc 1 PD2 1 0 :1:0 
 `uc 1 PC2 1 0 :1:1 
 `uc 1 CCP10 1 0 :1:2 
 `uc 1 CCP9E 1 0 :1:3 
 ]
-[s S412 . 1 `uc 1 RDE 1 0 :1:0 
+[s S408 . 1 `uc 1 RDE 1 0 :1:0 
 `uc 1 WRE 1 0 :1:1 
 `uc 1 PB2 1 0 :1:2 
 `uc 1 PC3E 1 0 :1:3 
 ]
-[u S417 . 1 `S352 1 . 1 0 `S381 1 . 1 0 `S386 1 . 1 0 `S388 1 . 1 0 `S391 1 . 1 0 `S394 1 . 1 0 `S397 1 . 1 0 `S402 1 . 1 0 `S407 1 . 1 0 `S412 1 . 1 0 ]
-[v _PORTEbits PORTEbits `VES417  1 e 1 @3972 ]
+[u S413 . 1 `S348 1 . 1 0 `S377 1 . 1 0 `S382 1 . 1 0 `S384 1 . 1 0 `S387 1 . 1 0 `S390 1 . 1 0 `S393 1 . 1 0 `S398 1 . 1 0 `S403 1 . 1 0 `S408 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES413  1 e 1 @3972 ]
 "1700
 [v _TRISB TRISB `VEuc  1 e 1 @3987 ]
 "1922
 [v _TRISC TRISC `VEuc  1 e 1 @3988 ]
 "2144
 [v _TRISD TRISD `VEuc  1 e 1 @3989 ]
-[s S343 . 1 `uc 1 TRISE0 1 0 :1:0 
+[s S339 . 1 `uc 1 TRISE0 1 0 :1:0 
 `uc 1 TRISE1 1 0 :1:1 
 `uc 1 TRISE2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -279,8 +277,8 @@
 `uc 1 IBF 1 0 :1:7 
 ]
 "2394
-[u S357 . 1 `S343 1 . 1 0 `S352 1 . 1 0 ]
-[v _TRISEbits TRISEbits `VES357  1 e 1 @3990 ]
+[u S353 . 1 `S339 1 . 1 0 `S348 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES353  1 e 1 @3990 ]
 "2530
 [v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
 "4620
@@ -335,7 +333,7 @@
 [v _dbuf dbuf `[80]uc  1 s 80 dbuf ]
 "69
 [v _nout nout `i  1 s 2 nout ]
-"69 C:\Users\Bruno Medina Pedroso\Documents\Projetos\Microcontroladores\MICRO\3 - LCD\LCD_Voltagem_meter.X\Main_program_meter.c
+"69 C:\Users\Bruno Medina Pedroso\Documents\Projetos\Microcontroladores\MICRO\3 - LCD\MICRO_Display_LCD_C\LCD_Voltagem_meter.X\Main_program_meter.c
 [v _VdigADC_AN0 VdigADC_AN0 `ui  1 e 2 0 ]
 "71
 [v _Voltage_AN0 Voltage_AN0 `f  1 e 4 0 ]
@@ -369,19 +367,14 @@
 {
 "175
 } 0
-"3 C:\Users\Bruno Medina Pedroso\Documents\Projetos\Microcontroladores\MICRO\3 - LCD\LCD_Voltagem_meter.X\LCD4b_EXSTO.c
+"3 C:\Users\Bruno Medina Pedroso\Documents\Projetos\Microcontroladores\MICRO\3 - LCD\MICRO_Display_LCD_C\LCD_Voltagem_meter.X\LCD4b_EXSTO.c
 [v _lcd_init lcd_init `(v  1 e 1 0 ]
 {
 "5
 [v lcd_init@i i `uc  1 a 1 5 ]
 "34
 } 0
-"71
-[v _lcd_clear lcd_clear `(v  1 e 1 0 ]
-{
-"75
-} 0
-"116 C:\Users\Bruno Medina Pedroso\Documents\Projetos\Microcontroladores\MICRO\3 - LCD\LCD_Voltagem_meter.X\Main_program_meter.c
+"116 C:\Users\Bruno Medina Pedroso\Documents\Projetos\Microcontroladores\MICRO\3 - LCD\MICRO_Display_LCD_C\LCD_Voltagem_meter.X\Main_program_meter.c
 [v _lcd_SENSOR lcd_SENSOR `(v  1 e 1 0 ]
 {
 "130
@@ -394,10 +387,10 @@
 "9 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\nf_sprintf.c
 [v _sprintf sprintf `(i  1 e 2 0 ]
 {
-[u S1013 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[u S1009 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
 "13
-[s S1016 _IO_FILE 11 `S1013 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
-[v sprintf@f f `S1016  1 a 11 34 ]
+[s S1012 _IO_FILE 11 `S1009 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v sprintf@f f `S1012  1 a 11 34 ]
 "12
 [v sprintf@ap ap `[1]*.39v  1 a 2 32 ]
 "9
@@ -410,9 +403,9 @@
 {
 "1393
 [v vfprintf@cfmt cfmt `*.25uc  1 a 2 123 ]
-[s S1048 _IO_FILE 0 ]
+[s S1044 _IO_FILE 0 ]
 "1390
-[v vfprintf@fp fp `*.39S1048  1 p 2 18 ]
+[v vfprintf@fp fp `*.39S1044  1 p 2 18 ]
 [v vfprintf@fmt fmt `*.25Cuc  1 p 2 20 ]
 [v vfprintf@ap ap `*.39*.39v  1 p 2 22 ]
 "1404
@@ -430,9 +423,9 @@
 [v vfpfcnvrt@done done `i  1 a 2 8 ]
 "694
 [v vfpfcnvrt@c c `uc  1 a 1 17 ]
-[s S1048 _IO_FILE 0 ]
+[s S1044 _IO_FILE 0 ]
 "692
-[v vfpfcnvrt@fp fp `*.39S1048  1 p 2 113 ]
+[v vfpfcnvrt@fp fp `*.39S1044  1 p 2 113 ]
 [v vfpfcnvrt@fmt fmt `*.39*.25uc  1 p 2 115 ]
 [v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 117 ]
 "1387
@@ -473,9 +466,9 @@
 "334
 [v efgtoa@mode mode `uc  1 a 1 90 ]
 [v efgtoa@nmode nmode `uc  1 a 1 89 ]
-[s S1048 _IO_FILE 0 ]
+[s S1044 _IO_FILE 0 ]
 "332
-[v efgtoa@fp fp `*.39S1048  1 p 2 51 ]
+[v efgtoa@fp fp `*.39S1044  1 p 2 51 ]
 [v efgtoa@f f `d  1 p 4 53 ]
 [v efgtoa@c c `uc  1 p 1 57 ]
 "525
@@ -507,9 +500,9 @@
 "3 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\floorf.c
 [v _floorf floorf `(f  1 e 4 0 ]
 {
-[u S1199 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+[u S1195 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
 "5
-[v floorf@u u `S1199  1 a 4 41 ]
+[v floorf@u u `S1195  1 a 4 41 ]
 "7
 [v floorf@m m `ul  1 a 4 35 ]
 "6
@@ -517,21 +510,21 @@
 "3
 [v floorf@x x `f  1 p 4 25 ]
 "4
-[v floorf@F526 F526 `S1199  1 s 4 F526 ]
+[v floorf@F526 F526 `S1195  1 s 4 F526 ]
 "27
 } 0
 "4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__fpclassifyf.c
 [v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
 {
-[u S1199 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+[u S1195 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
 "6
-[v ___fpclassifyf@u u `S1199  1 a 4 10 ]
+[v ___fpclassifyf@u u `S1195  1 a 4 10 ]
 "7
 [v ___fpclassifyf@e e `i  1 a 2 8 ]
 "4
 [v ___fpclassifyf@x x `f  1 p 4 0 ]
 "5
-[v ___fpclassifyf@F465 F465 `S1199  1 s 4 F465 ]
+[v ___fpclassifyf@F465 F465 `S1195  1 s 4 F465 ]
 "11
 } 0
 "43 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
@@ -641,9 +634,9 @@
 [v dtoa@s s `i  1 a 2 51 ]
 [v dtoa@w w `i  1 a 2 49 ]
 [v dtoa@p p `i  1 a 2 47 ]
-[s S1048 _IO_FILE 0 ]
+[s S1044 _IO_FILE 0 ]
 "287
-[v dtoa@fp fp `*.39S1048  1 p 2 27 ]
+[v dtoa@fp fp `*.39S1044  1 p 2 27 ]
 [v dtoa@d d `o  1 p 8 29 ]
 "328
 } 0
@@ -653,9 +646,9 @@
 "74
 [v pad@w w `i  1 a 2 25 ]
 [v pad@i i `i  1 a 2 23 ]
-[s S1048 _IO_FILE 0 ]
+[s S1044 _IO_FILE 0 ]
 "72
-[v pad@fp fp `*.39S1048  1 p 2 16 ]
+[v pad@fp fp `*.39S1044  1 p 2 16 ]
 [v pad@buf buf `*.39uc  1 p 2 18 ]
 [v pad@p p `i  1 p 2 20 ]
 "95
@@ -678,18 +671,18 @@
 [v fputs@c c `uc  1 a 1 13 ]
 "8
 [v fputs@s s `*.39Cuc  1 p 2 9 ]
-[u S1013 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
-[s S1016 _IO_FILE 11 `S1013 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
-[v fputs@fp fp `*.39S1016  1 p 2 11 ]
+[u S1009 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S1012 _IO_FILE 11 `S1009 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputs@fp fp `*.39S1012  1 p 2 11 ]
 "19
 } 0
 "8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\nf_fputc.c
 [v _fputc fputc `(i  1 e 2 0 ]
 {
 [v fputc@c c `i  1 p 2 0 ]
-[u S1013 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
-[s S1016 _IO_FILE 11 `S1013 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
-[v fputc@fp fp `*.39S1016  1 p 2 2 ]
+[u S1009 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S1012 _IO_FILE 11 `S1009 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.39S1012  1 p 2 2 ]
 "24
 } 0
 "7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\putch.c
@@ -759,7 +752,7 @@
 [v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
 "53
 } 0
-"77 C:\Users\Bruno Medina Pedroso\Documents\Projetos\Microcontroladores\MICRO\3 - LCD\LCD_Voltagem_meter.X\LCD4b_EXSTO.c
+"77 C:\Users\Bruno Medina Pedroso\Documents\Projetos\Microcontroladores\MICRO\3 - LCD\MICRO_Display_LCD_C\LCD_Voltagem_meter.X\LCD4b_EXSTO.c
 [v _lcd_write lcd_write `(v  1 e 1 0 ]
 {
 [v lcd_write@lin lin `uc  1 a 1 wreg ]
@@ -802,7 +795,7 @@
 [v set_bit@cmd cmd `uc  1 a 1 1 ]
 "40
 } 0
-"106 C:\Users\Bruno Medina Pedroso\Documents\Projetos\Microcontroladores\MICRO\3 - LCD\LCD_Voltagem_meter.X\Main_program_meter.c
+"106 C:\Users\Bruno Medina Pedroso\Documents\Projetos\Microcontroladores\MICRO\3 - LCD\MICRO_Display_LCD_C\LCD_Voltagem_meter.X\Main_program_meter.c
 [v _conv_AN0 conv_AN0 `(v  1 e 1 0 ]
 {
 "114
@@ -825,17 +818,17 @@
 "8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
 {
-[s S878 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+[s S874 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
 "13
-[s S883 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
-[u S886 . 4 `l 1 i 4 0 `d 1 f 4 0 `S878 1 fAsBytes 4 0 `S883 1 fAsWords 4 0 ]
-[v ___flmul@prod prod `S886  1 a 4 33 ]
+[s S879 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S882 . 4 `l 1 i 4 0 `d 1 f 4 0 `S874 1 fAsBytes 4 0 `S879 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S882  1 a 4 33 ]
 "12
 [v ___flmul@grs grs `ul  1 a 4 27 ]
-[s S954 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+[s S950 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
 "14
-[u S957 . 2 `s 1 i 2 0 `us 1 n 2 0 `S954 1 nAsBytes 2 0 ]
-[v ___flmul@temp temp `S957  1 a 2 37 ]
+[u S953 . 2 `s 1 i 2 0 `us 1 n 2 0 `S950 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S953  1 a 2 37 ]
 "10
 [v ___flmul@bexp bexp `uc  1 a 1 32 ]
 "11
@@ -847,7 +840,7 @@
 [v ___flmul@a a `d  1 p 4 18 ]
 "205
 } 0
-"92 C:\Users\Bruno Medina Pedroso\Documents\Projetos\Microcontroladores\MICRO\3 - LCD\LCD_Voltagem_meter.X\Main_program_meter.c
+"92 C:\Users\Bruno Medina Pedroso\Documents\Projetos\Microcontroladores\MICRO\3 - LCD\MICRO_Display_LCD_C\LCD_Voltagem_meter.X\Main_program_meter.c
 [v _config_IO config_IO `(v  1 e 1 0 ]
 {
 "97

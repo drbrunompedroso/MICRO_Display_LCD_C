@@ -87,21 +87,21 @@ void main()
     while(1)
     {
         if(B1 == 1)
-        {
+        {            
+            counter++;
             lcd_write(1,2,"    COUNTER:    ");
             sprintf(bufferLCD, 
                     "%02d",
                     counter);
-            lcd_write(2,8,bufferLCD);
-            counter++;
+            lcd_write(2,8,bufferLCD);           
 
-            if(counter > 15) counter = 0;
+            if(counter >= 15) counter = 0;
             __delay_ms(1000);  
         }
         else
         {            
             counter = 0;
-            lcd_write(1,2," AULA 1 - LCD:  ");
+            lcd_write(1,3,"AULA 1 - LCD:  ");
             lcd_write(2,1,"                ");
             __delay_ms(20); 
         }       
